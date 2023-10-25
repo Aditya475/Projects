@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "popins" sans-serif; */
+}
+
+body {
+  background-color: #bdbdbd;
+}
+
+.nav-main-container {
+  width: 100%;
+  height: 55px;
+  background-color: #fff;
+}
+
+.nav-container {
+  margin: 0 auto;
+  width: 80%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.nav-container a {
+  text-decoration: none;
+  font-size: 17px;
+  padding: 14px;
+  /* margin: 0 14px; */
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Farro", sans-serif;
+  border-radius: 43px;
+  transition: all 0.3s ease-in;
+}
+
+.nav-container a:hover {
+  background-color: #000;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.nav-centar img {
+  width: 170px;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+._1st-content-contanainer {
+  margin: 0 auto;
+  width: 70%;
+  height: 700px;
+}
+
+i {
+  font-size: 17px;
+}
+
+.image1 {
+  width: 100%;
+  height: 700px;
+  background-image: url(2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  padding-top: 8px;
+  border: none;
+  border-radius: 17px;
+  box-shadow: 1px 10px 19px 3px rgba(0, 0, 0, 0.67);
+}
+
+._1st-content-contanainer button {
+  margin-top: 26px;
+  padding: 17px;
+  border: none;
+  border-radius: 29px;
+  margin-right: 12px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.on {
+  background-color: red;
+  padding: 199px;
+  box-shadow: -9px 7px 28px -2px rgba(255, 0, 0, 0.62);
+}
+
+.on:hover {
+  background-color: rgb(0, 153, 39);
+  color: #000;
+  transform: scale(0.95);
+  box-shadow: -9px 7px 28px -2px rgba(0, 153, 39, 0.62);
+}
+
+.lo {
+  margin-left: 9px;
+  background: #ffffff;
+  border: 2px solid #fff;
+  box-shadow: 2px 6px 28px -2px rgba(255, 255, 255, 0.62);
+}
+
+.lo:hover {
+  background: red;
+  transform: scale(0.9);
+  box-shadow: 2px 6px 28px -2px rgba(255, 16, 16, 0.62);
+}
+
+button {
+  border: 3px solid #d80e0e;
+}
+
+.black-container {
+  width: 100%;
+  height: 80px;
+  background: #2c2b2b;
+  padding: 20px;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 38px;
+  font-family: "Farro", sans-serif;
+}
+
+.black-container span {
+  color: red;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center;
+  margin: 60px auto;
+  max-width: 1110px;
+}
+img {
+  width: 310px;
+}
+
+h3 {
+  font-size: 39px;
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.card {
+  max-width: 320px;
+  height: 590px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 9px rgba(1, 1, 1, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.grid_item {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+.footer-section {
+  /* background-color: red; */
+  height: 270px;
+  width: 100%;
+}
+
+.about-contact-section {
+  display: flex;
+
+  /* margin: 0 auto; */
+}
+
+.contact-section {
+  background-color: #515603;
+}
+
+.about-section {
+  background-color: #722300;
+}
+
+.contact-section,
+.about-section {
+  min-height: 260px;
+  padding: 34px;
+  color: #fff;
+  font-family: "Farro", sans-serif;
+}
+
+.contact-section p,
+.about-section p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #cfcfcf;
+}
+
+.contact-section h2,
+.about-section h2 {
+  font-size: 68px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.contact-section,
+h2 i {
+  font-size: 60px;
+}
+
+.about-section h2 i {
+  font-size: 60px;
+}
+
+.footer {
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0e0e;
+  color: #fff;
+  font-size: 18px;
+}
+
+.icon {
+  margin-top: 40px;
+}
+
+.icon i {
+  font-size: 38px;
+}
